@@ -17,7 +17,7 @@ spec:
     spec:
       containers:
         - name: sample-app
-          image: image: devsecopslabacr.azurecr.io/devsecops-app:f32c85856213cf19b2238fc7e687e9b9282f765f
+          image: devsecopslabacr.azurecr.io/devsecops-app:f32c85856213cf19b2238fc7e687e9b9282f765f
           ports:
             - name: http
               containerPort: 8080
